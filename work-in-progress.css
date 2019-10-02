@@ -1,0 +1,72 @@
+body {
+	background-image: url(image/travaux.png);
+	background-repeat: no-repeat;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+#principale {
+	display: flex;
+	flex-direction:column;
+	height: 100%;
+	width: 100%;
+}
+
+#haut {
+	display: flex;
+	height: 90%;
+	width: 100%
+}
+
+#travaux{
+	width: 20%;
+}
+
+#milieu {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+}
+
+#imagestop{
+	display: flex;
+	flex-direction: column-reverse;
+	width: 20%;
+}
+
+#containertext{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family:arial bold serif;	
+}
+
+#containerevo{
+	display: flex;
+	justify-content: center;
+	font-family:arial bold serif;
+}
+
+#evolution{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+#bas {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10%;
+	width: 100%;
+}
+
+a{
+	background-color: black;
+	color: red;
+}
+h3{
+	font-family:verdana;
+}
